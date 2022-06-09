@@ -160,6 +160,7 @@ h3 {
 @media (max-width:1028px) {
     #title {
         text-align: center;
+        height: 100vh;       
     }
 
     .iphone-box {
