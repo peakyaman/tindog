@@ -1,0 +1,175 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.4rem;
+    font-weight: 900;
+    line-height: 1.6;
+}
+
+h2 {
+    font-family: 'Montserrat-bold';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: 'Montserrat-bold';
+    font-weight: 900;
+}
+
+/* Main title section */
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Iphone image decoration */
+.iphone-box {
+    padding: 0 0 0 150px;
+}
+
+.iphone-image {
+    width: 60%
+}
+
+/* Button decoration */
+
+.download-button {
+    margin: 70px 14px;
+    padding: 2px 8px;
+}
+
+/* Navbar decoration */
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Ubuntu', 'sans-serif';
+    font-weight: bold;
+}
+
+.navbar {
+    margin-bottom: 4.5rem;
+}
+
+.nav-link {
+    margin: 5px 30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Designing Features section  */
+.features {
+    text-align: center;
+    margin: 4rem 0;
+    color: #8f8f8f;
+}
+
+.features h3 {
+    color: black;
+    font-family: 'Montserrat-bold', sans-serif;
+    font-size: 2rem;
+    font-weight: 900px;
+}
+
+.feature-item {
+    margin: 3rem 0;
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+/* Testimonials section */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+#testimonials img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press section */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Panel */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* Footer section 1 */
+#cta {
+    background-color: #ff4c68;
+    font-family: 'Montserrat-black';
+    color: white;
+    text-align: center;
+    padding: 2% 15%;
+    ;
+}
+
+#cta h3 {
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+/* last footer */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer-icon{
+    margin: 5px 15px;
+}
+
+/* Makeing responsive using media query */
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .iphone-box {
+        padding: revert;
+    }
+}
+
+
+@media (min-width:1029px) and (max-width:1350px) {
+    .iphone-image {
+        width: 100%;
+    }
+}
